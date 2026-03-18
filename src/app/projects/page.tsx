@@ -33,6 +33,13 @@ const projects = [
     live: "",
     featured: false,
   },
+  {
+    title: "Secure File Sharing System",
+    description: "Built a secure file sharing system in Go supporting user authentication, file storage, sharing, and access control. Designed invitation-based model for secure file sharing with creation, acceptance, and revocation workflows. Integrated asymmetric/symmetric encryption, digital signatures, and MACs to ensure confidentiality, integrity, and authenticity across all operations.",
+    tags: ["Go", "Cryptography", "Security", "System Design"],
+    live: "",
+    featured: false,
+  },
 ];
 
 export default function Projects() {
