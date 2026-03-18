@@ -40,6 +40,13 @@ const projects = [
     live: "",
     featured: false,
   },
+  {
+    title: "Malicious URL Detection System",
+    description: "Built a machine learning-based system to detect malicious URLs using lexical and structural features extracted from URL strings. Designed feature engineering pipeline capturing patterns indicative of phishing behavior. Trained and evaluated Logistic Regression and tree-based models, optimizing for precision, recall, and F1-score to handle class imbalance.",
+    tags: ["Python", "Machine Learning", "Scikit-learn", "Cybersecurity"],
+    live: "",
+    featured: false,
+  },
 ];
 
 export default function Projects() {
